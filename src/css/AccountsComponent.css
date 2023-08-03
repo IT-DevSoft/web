@@ -1,0 +1,14 @@
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.card-header > h3 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.delete-btn {
+  display: table-cell !important;
+}

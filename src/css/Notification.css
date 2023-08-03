@@ -1,0 +1,23 @@
+.notification {
+  position: absolute !important;
+  right: 10px;
+  bottom: 10px;
+  animation: append-animate 0.5s linear;
+  transition: transform 0.5s !important;
+  z-index: 9999999;
+}
+
+@keyframes append-animate {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.remove {
+  transform: scale(0);
+}
